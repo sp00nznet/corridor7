@@ -1,0 +1,17 @@
+{
+  "title": "Corridor 7: Alien Invasion",
+  "repo": "sp00nznet/corridor7",
+  "accent": "#3c8c3c",
+  "note": {
+    "default": "The build takes about 5 minutes and under 1 GB. Python, CMake, Git and the Visual Studio Build Tools (about 2 GB) are installed if they are missing. Choose the CD's drive, a folder copy of the CD, or an .iso of it (the USA CD release)."
+  },
+  "game": {
+    "name": "Corridor 7",
+    "files": ["CORR7CD/CORR7CD.EXE|CORR7CD.EXE|corr7cd.exe|*.iso"]
+  },
+  "sources": [{ "repo": "sp00nznet/pcrecomp", "ref": "main", "dir": "pcrecomp" }],
+  "setup": {
+    "default": ["cmd", "/c", "Setup.cmd", "-Yes", "-GameDir", "{game}"]
+  },
+  "play": "Corridor 7.lnk"
+}

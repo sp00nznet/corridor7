@@ -6,6 +6,16 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+### Added
+- `Setup.cmd` (`tools/setup.ps1`): checks and offers to install the tools,
+  copies the game from your CD, an .iso or a folder copy, lifts, builds, runs
+  the self-test and makes a shortcut.
+- `launcher/launcher.json` and an `installer` workflow (run by hand) for
+  recomp-launcher; a netlab recipe, `corridor7`, whose QA is the self-test.
+
+### Changed
+- README rewritten in the pcrecomp house style.
+
 ## [0.1.0] - 2026-11-08
 
 ### Added
