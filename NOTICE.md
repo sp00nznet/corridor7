@@ -1,6 +1,6 @@
 # Notice
 
-The MIT licence in [LICENSE](LICENSE) covers what is ours in this repository:
+The MIT license in [LICENSE](LICENSE) covers what is ours in this repository:
 the runtime, the lifter driver, the setup scripts, the tests and the
 documentation. It does not cover the game.
 
@@ -13,12 +13,12 @@ repository and are excluded by `.gitignore`.
   there.
 - Lifted code is a derivative work of the binary it came from. Anything the
   pipeline writes into `work/` (the lifted C is `work/c7/gen/`) carries
-  whatever licence the original carries, not this one. The MIT grant stops at
+  whatever license the original carries, not this one. The MIT grant stops at
   our own work.
 
 ## Third-party code
 
-| Path | Upstream | Version | Licence |
+| Path | Upstream | Version | License |
 |---|---|---|---|
 | `third_party/ymfm/` | [ymfm](https://github.com/aaronsgiles/ymfm), © 2021 Aaron Giles; OPL family sources only, unmodified | 2021 sources | BSD-3-Clause, [LICENSES/BSD-3-Clause-ymfm.txt](LICENSES/BSD-3-Clause-ymfm.txt) |
 
