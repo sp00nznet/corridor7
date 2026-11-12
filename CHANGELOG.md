@@ -13,8 +13,16 @@ All notable changes to this project are documented here. The format follows
 - `launcher/launcher.json` and an `installer` workflow (run by hand) for
   recomp-launcher; a netlab recipe, `corridor7`, whose QA is the self-test.
 
+- `NOTICE.md` (was `NOTICE`), `CONTRIBUTING.md`, `CONTRIBUTORS.md`,
+  `docs/building.md` and `docs/testing.md`.
+- `setup.sh`, which says there is no Linux or macOS build yet.
+
 ### Changed
-- README rewritten in the pcrecomp house style.
+- README in the house order (Getting Started, Status, Screenshots,
+  Documentation); the step-by-step build and the flags moved to
+  `docs/building.md`.
+- Setup names the pcrecomp branch it clones (`main`), and has been run from a
+  fresh clone against a copy of the CD.
 
 ## [0.1.0] - 2026-11-08
 

@@ -15,10 +15,11 @@
 - Network and modem modes are in the menu; untested and probably not useful.
 
 ## Then
-- Run `Setup.cmd` end to end on a clean machine with the CD, and publish the
-  installer (the `installer` workflow, run by hand while the repo is private).
-- `setup.sh` for Linux and macOS, and bin/cue images in `Setup.cmd` (it takes a
-  drive, a folder or an .iso today).
+- Run `Setup.cmd` on a clean VM (it has been run from a fresh clone on the
+  workstation), and publish the installer (the `installer` workflow, run by
+  hand while the repo is private).
+- A real `setup.sh` for Linux and macOS (today it says there is none), and
+  bin/cue images in `Setup.cmd` (it takes a drive, a folder or an .iso).
 - Linux and macOS: the SDL2 host came over from Blake Stone; build and test it.
 - Hi-res and widescreen 3D view: Blake Stone's renderer hooks look for Blake
   Stone's variables and switch off here. Corridor 7's raycaster needs its own.
